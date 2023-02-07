@@ -87,7 +87,7 @@ if (num > 10 && num < 99) {
 
 // 5) Leer un número entero de dos dígitos y determinar si ambos dígitos son pares. 
 
-/* Algoritmo digitos_PAR */
+/* Algoritmo digitos_PAR 
 
 // VARIABLES
 
@@ -125,5 +125,5 @@ if (num > 10 && num < 99) {
 } else {
      soloNumerosInt(num)
 }
-
+*/
 
