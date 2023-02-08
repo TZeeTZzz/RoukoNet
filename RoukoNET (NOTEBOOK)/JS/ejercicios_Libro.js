@@ -87,7 +87,7 @@ if (num > 10 && num < 99) {
 
 // 5) Leer un número entero de dos dígitos y determinar si ambos dígitos son pares. 
 
-/* Algoritmo digitos_PAR 
+/* Algoritmo digitos_PAR */
 
 // VARIABLES
 
@@ -95,7 +95,7 @@ let num = parseInt(prompt("Ingrese un número de dos dígitos"));
 let pd = Math.floor(num/10);
 let ud = num - Math.floor(num/10) * 10;
 
-// Función para comprobar si un dato es de tipo ENTERO
+// Función para comprobar si un dato es de tipo ENTERO o si tiene MÁS o MENOS de DOS dígitos. 
 
  const soloNumerosInt = i => {
     if (Number.isInteger(i) == false) {
@@ -125,5 +125,5 @@ if (num > 10 && num < 99) {
 } else {
      soloNumerosInt(num)
 }
-*/
+
 
